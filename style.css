@@ -1,0 +1,134 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("./assets/Norse-Bold.otf");
+  }
+
+span{
+    margin-top: 30px;
+    font-size: 0.5rem;
+  }
+  label{
+    display: block;
+    font-size: 0.5rem;
+    margin-top: 10px;
+  }
+  
+  button{
+    background-color: #596D48;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  input{
+    width: 90%;
+    border: 1px lightgray solid;
+    border-radius: 2px;
+    height: 1rem;
+    font-size: 0.5rem;
+    outline: none;
+  }
+
+  input:focus{
+    box-shadow: 5px 5px 5px gray;
+    outline: blue 1px solid;
+  }
+
+
+ 
+
+.odin{
+    font-family: myFirstFont;
+    font-size: 2rem;
+    color: white;
+
+  }
+
+
+.container{
+    display:flex;
+    
+    justify-content: space-around;
+}
+
+
+.leftContainer{  
+    width: 38%;    
+    height: 150vh;
+    align-content: center;
+    text-align: center;
+    background-color: gray;
+    background-image: url('/assets/halie-west-25xggax4bSA-unsplash.jpg');
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.assetsLeftContainer{
+  margin-top: 50px;
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+.rightContainer{
+    padding: 10px;
+}
+
+form{
+  position: relative;
+  margin-left: -10px;
+  width: 100%;
+}
+
+.formContainer{
+  display: flex;
+  align-content: space-between;
+  text-align: space-between;
+
+}
+
+.my-button {
+  margin-left: 20px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.leftFormContainer{
+  width: 100%;
+}
+
+.rightFormContainer{
+  width: 100%;
+}
+
+.bottomText{
+  margin-left: 10px;
+}
+
+.outerFormContainer{
+  background-color: antiquewhite;
+  height: 50%;  
+  padding: 20px 20px ;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 5px;
+}
+
+input:focus{
+  border: 0;
+
+}
+
+.error{
+  border:red 2px solid;
+  outline: red 2px solid;
+
+}
+
+
+
+
+
+
+
